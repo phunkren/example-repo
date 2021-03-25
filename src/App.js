@@ -5,7 +5,7 @@ export default function App() {
   const linkRef = React.useRef();
 
   function handleClick(link) {
-    console.count(`${link} clicked`);
+    console.count(`${link} clicked again`);
   }
 
   function handleContainerClick(e) {
