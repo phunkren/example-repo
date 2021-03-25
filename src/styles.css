@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  background: whitesmoke;
+  padding: 1rem;
+  margin: 1rem;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.container:focus-within {
+  outline: 5px solid tomato;
+}
+
+.container h2 {
+  margin: 0 1rem;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  pointer-events: none;
+}
